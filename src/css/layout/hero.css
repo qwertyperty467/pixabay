@@ -1,13 +1,41 @@
 .hero {
-height: 100vh;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
+.hero .container {
+  width: 100vw;
+}
+
+.hero__content {
+  position: absolute;
+  z-index: 10;
+  padding-top: 20%;
+  padding-left: 10%;
+}
 .hero__title {
-    padding-top: 50%;
-    margin-bottom: 30px;
-    font-size: 50px;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+.hero__text {
+  font-size: 34px;
 }
 
-.hero__text {
-    font-size: 34px;
+.swiper {
+}
+
+.swiper-wrapper {
+}
+
+.swiper-slide {
+}
+
+.slider__image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.swiper-pagination {
 }
